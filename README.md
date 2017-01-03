@@ -30,4 +30,7 @@ open and download to Uno, shooter.ino
 
 Create an Adafruit.io account
   * https://io.adafruit.com/
-Create dashboard, and feed.
+  * [Good getting started guide] (https://learn.adafruit.com/mqtt-adafruit-io-and-you/getting-started-on-adafruit-io)
+  * Create dashboard, and feed.
+     * [The basic feed info is here] https://learn.adafruit.com/adafruit-io-basics-feeds/creating-a-feed)
+  * [Specific feed and dash settings in this doc](https://github.com/osbock/InternetOfSilly/blob/master/AdaIOSetup.md)
