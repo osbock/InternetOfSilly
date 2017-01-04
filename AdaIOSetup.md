@@ -18,6 +18,8 @@ Create a feed called SillyFire
 Now go back to dashboards and create a new dashboard
 Click on Create Dashboard
 Once there, click on the plus to create a new block/control
+The wizard will walk you through. You can also create new feeds here, but in our case, we'll select SillyFire.
+
 ![Createblock](images/CreateBlock.png)
 
 Pick button, and make yourself a fire button
