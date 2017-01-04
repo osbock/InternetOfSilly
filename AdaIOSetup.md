@@ -10,7 +10,15 @@ This takes us to the default dashboard, navigate away by clickin on "Dashboards"
 ![defaultdashboard](images/defaultdashboard.png)
 
 Go to Your Feeds:
-[!yourfeeds](images/yourfeeds.png)
+![yourfeeds](images/yourfeeds.png)
 
 Create a feed called SillyFire
-[!createfeed](images/CreateFeed.png)
+![createfeed](images/CreateFeed.png)
+
+Now go back to dashboards and create a new dashboard
+Click on Create Dashboard
+Once there, click on the plus to create a new block/control
+![Createblock](images/CreateBlock.png)
+
+Pick button, and make yourself a fire button
+![Firebutton](images/FireButton.png)

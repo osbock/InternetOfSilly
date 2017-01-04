@@ -24,7 +24,7 @@ Install Python
 Install python libraries
   * adafruit mqtt
     * [Adafruit Python library setup documented here](https://github.com/adafruit/io-client-python)
-  * dependencies - I also had to do a pip install paho-mqtt (pip install paho-mqtt) but your mileage may vary.
+  * dependencies - I also had to do a pip install paho-mqtt but your mileage may vary.
 
 Install Arduino IDE and necessary drivers
 open and download to Uno, shooter.ino
