@@ -11,8 +11,8 @@ from Adafruit_IO import MQTTClient
 
 
 # Set to your Adafruit IO key & username below.
-ADAFRUIT_IO_KEY = "YourIOKey"
-ADAFRUIT_IO_USERNAME = "YourUsername"
+ADAFRUIT_IO_KEY = "yourkey"
+ADAFRUIT_IO_USERNAME = "yourusername"
 
 FEED_ID = 'SillyFire'
 
@@ -31,7 +31,7 @@ def connected(client):
 def disconnected(client):
     # Disconnected function will be called when the client disconnects.
     print 'Disconnected from Adafruit IO!'
-    sys.exit(1)
+    client.connect()
 
 def message(client, feed_id, payload):
     # Message function will be called when a subscribed feed has a new value.
