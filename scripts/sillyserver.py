@@ -11,8 +11,8 @@ from Adafruit_IO import MQTTClient
 
 
 # Set to your Adafruit IO key & username below.
-ADAFRUIT_IO_KEY = "e3f3ae0386a0327d7f197edad685b0739400e798"
-ADAFRUIT_IO_USERNAME = "osbock"
+ADAFRUIT_IO_KEY = "YourIOKey"
+ADAFRUIT_IO_USERNAME = "YourUsername"
 
 FEED_ID = 'SillyFire'
 

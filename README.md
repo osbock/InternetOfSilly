@@ -4,9 +4,9 @@ Internet controlled silly string shooter
 Created for CapitalOne Labs Software Engineering summit.
 
 ##Directories:
- *Arduino - Firmware files for Arduino servo control
- *Scripts - Python script to act as proxy to arduino and communicate to adafruit.io
- *fabricate - 3D models for printable parts for the silly string shooter.
+ * Arduino - Firmware files for Arduino servo control
+ * Scripts - Python script to act as proxy to arduino and communicate to adafruit.io
+ * fabricate - 3D models for printable parts for the silly string shooter.
 
 ##BOM:
  * Arduino uno or equivalent
@@ -23,10 +23,15 @@ Created for CapitalOne Labs Software Engineering summit.
 Install Python
 Install python libraries
   * adafruit mqtt
-  * dependencies
+    * [Adafruit Python library setup documented here](https://github.com/adafruit/io-client-python)
+  * dependencies - I also had to do a pip install paho-mqtt but your mileage may vary.
 
 Install Arduino IDE and necessary drivers
 open and download to Uno, shooter.ino
 
 Create an Adafruit.io account
-Create dashboard, and feed.
+  * https://io.adafruit.com/
+  * [Good getting started guide] (https://learn.adafruit.com/mqtt-adafruit-io-and-you/getting-started-on-adafruit-io)
+  * Create dashboard, and feed.
+     * [The basic feed info is here] (https://learn.adafruit.com/adafruit-io-basics-feeds/creating-a-feed)
+  * [Specific feed and dash settings in this doc](https://github.com/osbock/InternetOfSilly/blob/master/AdaIOSetup.md)
