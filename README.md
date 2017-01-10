@@ -44,4 +44,6 @@ To run the Shooter:
    export AIOKEY ="YourAIOKey"
 ```
    * edit sillyserver.py to the serial port used by the arduino
-   python sillyserver.py
+```
+	python sillyserver.py
+```
