@@ -3,17 +3,20 @@
 # username, and feed to subscribe to for changes.
 
 # Import standard python modules.
-import sys
-import serial
+import sys, os, serial
 
 # Import Adafruit IO MQTT client.
 from Adafruit_IO import MQTTClient
 
 
 # Set to your Adafruit IO key & username below.
-ADAFRUIT_IO_KEY = "yourkey"
-ADAFRUIT_IO_USERNAME = "yourusername"
+ADAFRUIT_IO_KEY = os.getenv('AIOKEY','nokey')
+ADAFRUIT_IO_USERNAME = os.getenv('AIOUSER','nouser')
 
+if (ADAFRUIT_IO_KEY == 'nokey' or ADAFRUIT_IO_USERNAME == 'nouser'):
+    print('no user or key environment variable')
+    sys.exit()
+    
 FEED_ID = 'SillyFire'
 
 ser = serial.Serial('/dev/cu.usbmodem1411',115200)
@@ -52,6 +55,7 @@ client.on_disconnect = disconnected
 client.on_message    = message
 
 # Connect to the Adafruit IO server.
+print "try to connect"
 client.connect()
 
 # Start a message loop that blocks forever waiting for MQTT messages to be
