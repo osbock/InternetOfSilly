@@ -39,7 +39,9 @@ Create an Adafruit.io account
 To run the Shooter:
    * program the Arduino
    * Set environment variables for adafruit io userid and AIOKEY
+
    export AIOUSER="YourAIOUsername"
    export AIOKEY ="YourAIOKey"
+
    * edit sillyserver.py to the serial port used by the arduino
    python sillyserver.py
