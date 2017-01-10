@@ -35,3 +35,11 @@ Create an Adafruit.io account
   * Create dashboard, and feed.
      * [The basic feed info is here] (https://learn.adafruit.com/adafruit-io-basics-feeds/creating-a-feed)
   * [Specific feed and dash settings in this doc](https://github.com/osbock/InternetOfSilly/blob/master/AdaIOSetup.md)
+
+To run the Shooter:
+   * program the Arduino
+   * Set environment variables for adafruit io userid and AIOKEY
+   export AIOUSER="YourAIOUsername"
+   export AIOKEY ="YourAIOKey"
+   * edit sillyserver.py to the serial port used by the arduino
+   python sillyserver.py
